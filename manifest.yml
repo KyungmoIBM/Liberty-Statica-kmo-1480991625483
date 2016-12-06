@@ -1,0 +1,10 @@
+applications:
+- path: target/JavaHelloWorldApp.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: Liberty-Statica-kmo
+  host: Liberty-Statica-kmo
+  disk_quota: 1024M
+  services:
+  - Statica-y1
